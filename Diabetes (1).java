@@ -18,7 +18,7 @@ public class Diabetes {
         glucose = g;
         bloodPressure = bP;
         skinThickness = sT;
-        insuline = i;
+        insulin = i;
         this.bmi = bmi;
         diabetesPedigreeFunction = pF;
         this.age = age;
@@ -100,5 +100,5 @@ public class Diabetes {
 
     //methods
 
-    
+''
 }
