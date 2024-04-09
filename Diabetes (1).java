@@ -1,6 +1,6 @@
 // Judy Elkotory & Mrida Yawale
 
-public class Diabetes {
+public class Diabetes implements Comparable{
     //pregnancies, glucose, blood pressure, insulin, BMI, DiabetesPedigreeFunction, age, outcome
     private int pregnancies;
     private int glucose;
@@ -11,6 +11,8 @@ public class Diabetes {
     private double diabetesPedigreeFunction;
     private int age;
     private int outcome;
+
+    //we could find the average age of patients that have diabetes then compare the inputted age to that
 
     //constructors
     public Diabetes(int p, int g, int bP, int sT, int i, double bmi, double pF, int age, int outcome) {
@@ -98,7 +100,39 @@ public class Diabetes {
         return outcome;
     }
 
-    //methods
+    public int compareTo(Diabetes other) {
+        int result = this.age.compareTo(other.age);
+        //postive
+        if(result > 0)
+        {
 
-''
-}
+        }
+        //negative
+        else if (result < 0)
+        {
+
+        }
+        //zero
+        else
+        {
+
+        }
+
+        }
+
+
+        public int bP(int age) {
+
+        }
+
+    }
+
+    //methods
+// elements = objects = rows
+//variables = collumns
+
+//blood pressure by age
+// probability method
+    // checks probability
+
+//avg age of patients with diabetes
